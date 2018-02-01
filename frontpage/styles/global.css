@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css?family=Asap+Condensed");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+div#box .box-panel input[type="text"].pantura, input[type="password"].pantura, select.pantura, input[type="date"].pantura, input[type="hidden"].pantura, input[type="number"].pantura {
+    width: 100%;
+    padding: 8px 5px 8px 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+div#box .box-panel button[type="submit"].pantoro{
+    width: 100%;
+    color: white;
+    padding: 10px 5px;
+    margin: 0px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+div#box .button{
+		display: block;
+    width: 100%;
+    height: AUTO;
+    padding: 10px 5px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+div#box .button#green{
+	background: #97CE68;
+}
+
+div#box .button#lit{
+	background: #FF6766;
+}
+
+div#box .box-panel button[type="submit"].pantura#bob{
+	background-color: #97CE68;
+}
+
+div#box .box-panel input[type=file].pantura {
+	font-family: 'Asap Condensed', sans-serif;
+ 	padding: 4px 20px;
+    margin: 8px 0;
+    font-size: 15px;
+    cursor: pointer;
+		width: 100%;
+}
+
+div#box .box-panel button[type="submit"].pantura {
+    width: 100%;
+    background-color: #EB6361;
+    color: white;
+    padding: 14px 20px;
+    margin: 4px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+div#box .box-panel button[type="submit"].pantura:hover {
+    background-color: #D33257;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+
+
+th {
+    color: black;
+}
+
+
+body {
+	font-family: 'Asap Condensed', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.keluar a{
+
+	color: #fff;
+	float: right;
+	font-size: 1.3em;
+	padding: 13px;
+	padding-right: 20px;
+
+}
+
+div#header {
+	width: 100%;
+	height: 50px;
+	background-color: #2CC990;
+	margin: 0 auto;
+}
+
+.logo {
+	float: left;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+
+.logo a {
+	font-size: 1.5em;
+	color: #fff;
+}
+
+.logo a span {
+	font-weight: 600;
+}
+
+div#container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.sidebar {
+	width: 250px;
+	height: 100%;
+	background-color: #3E4651;
+	float: left;
+}
+
+
+
+ul#nav {
+
+}
+
+ul#nav li{
+	list-style: none;
+}
+
+ul#nav li a{
+	color: #fff;
+	display: block;
+	padding: 12px;
+	padding-left: 20px;
+	font-size: 1em;
+	border-bottom: 1px solid #a5a2a2;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+
+ul#nav li a:hover{
+	background-color: #4d5663;
+	color: #e5e5e5;
+	padding-left: 40px;
+}
+
+ul#nav li a.unselected:hover{
+	background-color: #4d5663;
+	color: #e5e5e5;
+	padding-left: 60px;
+}
+
+ul#nav li a.selected {
+	background-color: #474242;
+	padding-left: 70px;
+}
+
+ul#nav li a.unselected{
+	padding-left: 40px;
+	background-color: #344146;
+}
+
+ul#nav li a.hide{
+	display: none;
+}
+
+.content {
+	width: auto;
+	margin-left: 250px;
+	height: 100%;
+	background-color: #ddd;
+	padding: 25px;
+
+}
+
+.content p{
+	color: #424242;
+	font-size: 1em;
+}
+
+div#box {
+	margin-top: 15px;
+	overflow: inherit;
+}
+
+div#box .box-top{
+	color : #ffffff;
+	text-shadow: 0px 100px #000;
+	font-weight: 300;
+	background-color: #E26E67;
+	padding: 5px;
+	padding-left: 15px;
+}
+
+div#box .box-panel{
+	position: relative;
+	padding: 15px;
+	background-color: #fff;
+}
+
+
+
+.centereds{
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+ }
